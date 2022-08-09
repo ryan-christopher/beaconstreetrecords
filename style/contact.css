@@ -1,0 +1,61 @@
+#landing {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(../images/record-searching.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#contact-card {
+  width: 50vw;
+  min-width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.contactline {
+  height: 1px;
+  border-radius: 0px;
+  color: white;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 1px;
+  margin: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  height: 2px;
+  width: 30vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-card>ion-icon {
+  color: white;
+  font-size: 35px;
+}
+
+.contact-header {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 5vw;
+  font-size: 20px;
+}
+
+.contact-paragraph {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 18px;
+}
